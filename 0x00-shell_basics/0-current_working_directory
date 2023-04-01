@@ -1,2 +1,2 @@
-cd "$(dirname "$0")"
-echo "$(pwd)"
+#!/bin/bash
+pwd
