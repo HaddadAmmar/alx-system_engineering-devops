@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cwd=$(pwd -P)
-echo $cwd
+cd "$(dirname "$0")"
+echo "$(pwd)"
